@@ -55,6 +55,7 @@ object Main extends App {
   }
 
   // besides some sort of pruning I got no idea
+  // apparently it's dp
   val task2 = () => {
     Using(scala.io.Source.fromFile("dummy_input")) { source =>
       val lines = source.getLines().toList
