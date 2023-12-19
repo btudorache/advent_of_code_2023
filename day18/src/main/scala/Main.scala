@@ -61,5 +61,7 @@ object Main extends App {
   }
 
   task1()
+
+  // apparently part 2 needs shoelace formula (the same as the one for day 10, algorithm for calculating area of polygon when the points are known)
   //  task2()
 }
